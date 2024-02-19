@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+h1{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 10px;
+}
+
+img{
+    height: 200px;
+}
+
+input, input:focus{
+    border: none;
+    background-color: #f2f2f2;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+}
+
+input::placeholder{
+    color: #d2d2d2;
+}
+
+.background{
+    background-color: #0033FF;
+    height: 50vh;
+    width: 100vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 6px 2px rgba(0, 0, 0, 25%);
+    background: #fff;
+    align-items: center;
+    padding: 3rem;
+    justify-content: space-between;
+    gap: 2.5rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.close{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem
+}
+
+.txt-gray{
+    color: #d2d2d2;
+}
+
+b{
+    color: #000;
+}
+
+button{
+    font-size: 16px;
+    background: #0033FF;
+    border: none;
+    padding: 1rem 2rem;
+    width: 100%;
+    color: #fff;
+    border-radius: 30px;
+}

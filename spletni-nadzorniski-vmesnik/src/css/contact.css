@@ -1,0 +1,121 @@
+.contactTitle {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-weight: 500;
+    font-size: 2.9vw;
+    color: #292B33;
+}
+
+.contact-container {
+    display: flex;
+    flex-flow: column wrap; /* Postavimo flex elemente v stolpce in omogočimo wrap. */
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+    height: 360px;
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
+.contact-image img {
+    height: 360px;
+    display: block; /* Slika kot block, da izginejo dodatni 4px zamika pod sliko. */
+    border-right: 2px solid #292B33; /* Border style and color */
+}
+
+.contact-data {
+    font-size: 1.3em;
+    margin-top: 1%;
+}
+
+.contact-form {
+    width: calc(100% - 1000px); /* izrazimo širino podkontejnerja = 100% parent - širina slike */
+    max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.contact-form p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.contact-form input {
+    padding: 10px;
+}
+
+.contact-form input[name='name'], .contact-form input[name='email'] {
+    flex-basis: 49%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form p, .contact-form input[name='message'] {
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-form .submit-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-form button {
+    background-color: white;
+    color: #292B33;
+    padding: 8px;
+    width: 150px;
+    cursor: pointer;
+    border: 2px solid #0033FF;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0033FF;
+}
+
+.contact-form button i {
+    margin-right: 15px;
+}
+
+/* Nastavitev responsive designa za Kontakt sekcijo strani. */
+/* Oblika za zaslone pod 1200px. */
+@media screen and (max-width: 1200px) { /* Media query, ki velja samo za zaslone z max širino do 1200px. */
+    /* Vsak flex element v svojo vrsto, postavimo elemente na sredino in nastavimo max-širino kontejnerja na 800 px za lepši izgled. */
+    .contact-container {
+        height: auto;
+        max-width: 800px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    /* Širina flex konteinerja za vnos podatkov se razteza preko celotne širine parent konteinerja (max 800px). */
+    .contact-form {
+        width: 100%;
+    }
+    .contact-image img {
+        height: 360px;
+        display: block; /* Slika kot block, da izginejo dodatni 4px zamika pod sliko. */
+        border-bottom: 2px solid #292B33; /* Border style and color */
+        border-right: 0px;
+    }
+  }
+
+/* Oblika za zaslone pod 650px. */
+@media screen and (max-width: 650px) { /* Media query, ki velja samo za zaslone z max širino do 1200px. */
+    .contact-form input[name='name'], .contact-form input[name='email'] {
+        flex-basis: 100%; /* Raztegnemo vnosni polji preko celotne širine konteinerja. */
+    }
+    /* Omogočimo dinamično spreminjanje velikosti slike glede na velikost zaslona. */
+    .contact-image img {
+        max-width: 100%;
+        height: auto;
+    }
+  }

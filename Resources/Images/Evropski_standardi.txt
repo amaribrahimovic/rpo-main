@@ -1,0 +1,25 @@
+Skladnost z Evropsko zakonodajo o varstvu podatkov pri razvoju aplikacije iProtect:
+
+1. Splošna uredba o varstvu podatkov (GDPR):
+
+Zakonita podlaga: Pred začetkom obdelave osebnih podatkov (vključno s podatki o lokaciji) preverite, ali imate jasno zakonito podlago za obdelavo. Na primer, lahko gre za soglasje uporabnika ali izvajanje pogodbe.
+Pravice posameznikov: Upoštevajte pravice posameznikov do dostopa, popravka in izbrisa svojih podatkov. Vključite možnost prenosa podatkov in zagotovite, da imajo uporabniki nadzor nad svojimi osebnimi podatki.
+Obvestila in privolitev: Javno objavite politiko zasebnosti in jasno obvestite uporabnike, kako se bodo njihovi podatki uporabljali. Za občutljive informacije, kot so lokacijski podatki, pridobite izrecno privolitev.
+2. Pravila o varstvu osebnih podatkov v Sloveniji (ZVOP-1):
+
+Načela obdelave: Upoštevajte načela poštenosti, omejitve namena in natančnosti podatkov pri obdelavi osebnih podatkov.
+Varnost podatkov: Uvedite robustne varnostne ukrepe za zaščito osebnih podatkov pred nepooblaščenim dostopom ali razkritjem.
+3. Zakon o elektronskih komunikacijah (ZEKom-1):
+
+Lokacijski podatki: Pri obdelavi lokacijskih podatkov iz elektronskih komunikacij upoštevajte predpise, ki varujejo zasebnost posameznikov.
+4. Sodelovanje z nujnimi službami:
+
+Zakon o kazenskem postopku (ZKP): Raziskujte, kako lahko sodelujete z nujnimi službami v izrednih razmerah, ob spoštovanju zakonodaje in zaščite zasebnosti uporabnikov.
+5. Politike hrambe podatkov in varnostne prakse:
+
+Politike hrambe podatkov: Določite časovne okvire hrambe podatkov in jih redno pregledujte glede na zakonodajo.
+Varnostne prakse: Implementirajte šifriranje podatkov, varno avtentikacijo in druge ukrepe za zagotovitev varnosti podatkov.
+6. Čezmejno prenose podatkov:
+
+Standardne pogodbe o varstvu podatkov: Če so podatki prenašani zunaj Evropske unije, sklenite ustrezne standardne pogodbe o varstvu podatkov za zagotovitev zakonitega prenosa.
+

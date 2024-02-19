@@ -1,0 +1,92 @@
+.register-container {
+    position: relative;
+    background-color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.logo {
+    width: 80%;
+    height: 50%;
+    margin-bottom: 0px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-title {
+    padding: 20px;
+    font-size: 33px;
+    color: #292B33;
+}
+
+input {
+    border: none;
+    background-color: #F2F2F2;
+    padding: 15px;
+    border-width: 2px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-radius: 25px;
+    color: #292B33;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type=text] {
+    margin-bottom: 20px;
+}
+
+input[id=password] {
+    margin-bottom: 20px;
+}
+
+input[id=password-repeat] {
+    margin-bottom: 25px;
+}
+
+input:focus {
+    border-color: #292B33;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.newAccount {
+    margin-bottom: 3px;
+}
+
+.newAccount > * {
+    color: #292B33;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.newAccount p {
+    display: inline;
+    margin-right: 5px;
+    color: #757575;
+}
+
+.register-button {
+    background-color: white;
+    color: #0033FF;
+    font-size: 20px;
+    padding: 11px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0033FF;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.register-button:hover {
+    background-color: #0033FF;
+    color:#F2F2F2
+    
+}

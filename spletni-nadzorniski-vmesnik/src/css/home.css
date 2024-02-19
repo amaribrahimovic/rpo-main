@@ -1,0 +1,109 @@
+.contentHomeTitle {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1%;
+    font-weight: 500;
+    font-size: 2.9vw;
+    color: #292B33;
+}
+
+.contentHome {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+    height: 75vh;
+    padding: 2%;
+}
+
+
+.features {
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    padding-top: 3%;
+    border: 0;
+}
+
+.featuresTitle {
+    font-size: 3vw;
+    padding-bottom: 3%;
+    color: #292B33;
+}
+
+.featuresItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 22%;
+    margin-top: 3%;
+}
+
+.featuresItems img {
+    width: 50px;
+    height: 50px;
+}
+
+.featuresItems p {
+    font-size: 2vw;
+    padding-left: 5%;
+    color: #292B33;
+}
+
+.learnmore {
+    padding-top: 5%;
+}
+
+.learnmore a {
+    color: #292B33;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.registerButton {
+    margin-top: 13%;
+}
+
+.registerButton a {
+    display: inline-block;
+    padding: 30px;
+    background-color: #0033FF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: 0.4s ease;
+
+    &:hover {
+        transform: scale(1.4);
+    }
+}
+
+.rightPane {
+    width: 40%;
+    padding: 10px;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promotionBanner img {
+    width: 300px;
+    height: auto;
+}
+
+.mobileStoreLinks img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    padding-bottom: 7%;
+}
+
+.mobileStoreLinks {
+    max-width: 200px;
+}

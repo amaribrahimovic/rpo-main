@@ -1,0 +1,54 @@
+.privacyTitle {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: 500;
+    font-size: 2.9vw;
+    color: #292B33;
+}
+
+/* Resetting some default styles for better consistency across browsers */
+h1,
+p,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.privacyContent {
+    line-height: 1.6;
+}
+
+.privacyContent {
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.privacyContent h1 {
+    color: #292B33;
+    margin-bottom: 10px;
+}
+
+.privacyContent p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.privacyContent ol {
+    margin-bottom: 15px;
+    color: #292B33;
+}
+
+.privacyContent li {
+    margin-bottom: 5px;
+    margin-left: 2%;
+}

@@ -1,0 +1,33 @@
+.contentDownload {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    /* align-items: center; */
+    height: 75vh;
+}
+
+.downloadIos,
+.downloadAndroid {
+    text-align: center;
+    margin: 0 1%;
+}
+
+.downloadIos img,
+.downloadAndroid img {
+    max-width: 100%;
+    /* width: auto; */
+    height: auto;
+}
+
+.downloadLink {
+    margin-top: 10px;
+}
+
+.downloadLink a {
+    text-decoration: none;
+    color: #292B33;
+}
+
+.downloadLinkTitle {
+    font-weight: bold;
+}

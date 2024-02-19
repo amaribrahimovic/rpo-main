@@ -1,0 +1,64 @@
+.bannerDash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15vw;
+    height: 100vh;
+    background-color: #0033FF;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /* Brez tega se bannerDashLinksBottom ne postavijo na dno. */
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.logoDash {
+    display: block;
+    height: auto;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.bannerDashLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bannerDashLinksTop,
+.bannerDashLinksBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bannerDashLinksTop button,
+.bannerDashLinksBottom button {
+    background: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    margin: 7px;
+    width: 90%;
+}
+
+.bannerDashLinksTop a,
+.bannerDashLinksBottom a {
+    text-decoration: none;
+    color: #292B33;
+}
+
+.bannerDashLinksTop button:hover,
+.bannerDashLinksBottom button:hover {
+    background-color: #D2D2D2;
+}
+
+.bannerDashLinksBottom {
+    margin-top: auto;
+    margin-bottom: 8%;
+}
+
+#ducktape {
+    color: #292B33;
+}

@@ -1,0 +1,88 @@
+{   
+    "uporabnik": {
+      "0njpdslpTmapOxr0zbRHlza7GSU2": {
+        "ime": "ime1",
+        "priimek": "priimek1",
+        "email": "d",
+        "emso": "2203004500123",
+        "zavarovanje": true,
+        "naslov": {
+            "drzava": "slovenija",
+            "mesto": "maribor",
+            "postna-stevilka": 2000,
+            "ulica": "Frankolovska ulica 22"
+        },
+        "zadnja-lokacija": {
+          "x": 133323,
+          "y": 54544,
+          "z": 656556
+        },
+        "otroci": {
+          "otrok1": true,
+          "otrok2": true
+        }
+      },
+      "JNhSPnXgH5hi3TyA8QnVYhrN4lh2": {
+        "ime": "ime2",
+        "priimek": "priimek2",
+        "email": "test2@neki.com",
+        "emso": "2304006500123",
+        "naslov": {
+            "drzava": "slovenija",
+            "mesto": "maribor",
+            "postna-stevilka": 2000,
+            "ulica": "Frankolovska ulica 22"
+        },
+        "zadnja-lokacija": {
+          "x": 133434,
+          "y": 5434,
+          "z": 65643346
+        }
+      }
+    },
+    "otrok": {
+        "otrok1": {
+            "ime": "ime4",
+            "priimek": "priimek4",
+            "email": "test4@neki.com",
+            "emso": "2302326500123",
+            "naslov": {
+                "drzava": "slovenija",
+                "mesto": "maribor",
+                "postna-stevilka": 2000,
+                "ulica": "Frankolovska ulica 22"
+            },
+            "zadnja-lokacija": {
+              "x": 133434,
+              "y": 5434,
+              "z": 65643346
+            }
+          },
+          "otrok2": {
+            "ime": "ime5",
+            "priimek": "priimek5",
+            "email": "test5@neki.com",
+            "emso": "2302566500123",
+            "naslov": {
+                "drzava": "slovenija",
+                "mesto": "maribor",
+                "postna-stevilka": 2000,
+                "ulica": "Frankolovska ulica 22"
+            },
+            "zadnja-lokacija": {
+              "x": 133434,
+              "y": 5434,
+              "z": 65643346
+            }
+          }
+    },
+    "skupina": {
+        "skupina1":{
+            "uporabnik1": true,
+            "uporabnik2": true
+        },
+        "skupina2":{
+            "uporabnik2": true
+        }
+    }
+}

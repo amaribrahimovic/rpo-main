@@ -1,0 +1,55 @@
+.helpTitle {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: 500;
+    font-size: 2.9vw;
+    color: #292B33;
+}
+
+.helpContent {
+    line-height: 1.6;
+}
+
+.helpContent {
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.helpContent h1 {
+    color: #292B33;
+    margin-bottom: 10px;
+}
+
+.helpContent p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.helpItemContact {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.helpItemContact h1 {
+    margin-bottom: 0px;
+}
+
+.helpItemContact a {
+    text-decoration: none;
+    color: inherit;
+    transition: text-decoration 0.3s ease;
+    font-weight: bold;
+}
+
+.helpItemContact a:hover {
+    text-decoration: underline;
+}

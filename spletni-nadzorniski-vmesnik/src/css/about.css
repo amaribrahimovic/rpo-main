@@ -1,0 +1,47 @@
+.aboutTitle {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: 500;
+    font-size: 2.9vw;
+    color: #292B33;
+}
+
+.aboutContent {
+    line-height: 1.6;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.aboutPerson {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.aboutPersonPhoto {
+    margin-right: 40px;
+}
+
+.aboutPersonContent {
+    flex: 1;
+}
+
+.aboutPersonPhoto img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
